@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+body {
+  background: rgb(226, 209, 228);
+
+  height: 100%;
+}
+
+.navbar {
+  display: flex;
+  color: rgb(226, 209, 228);
+}
+.btn {
+  color: rgb(226, 209, 228);
+  background-color: black;
+  border: none;
+}
+.form {
+  justify-content: flex-end;
+}
+.headerD {
+  color: rgb(226, 209, 228);
+  background-color: black;
+
+  margin: none;
+}
+h2 {
+  padding: 3%;
+}
+
+.nav-link {
+  padding-left: 1vw;
+  padding-right: 1vw;
+  border-top: 1px rgb(226, 209, 228);
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.card {
+  display: flex;
+  width: 90%;
+  height: 420px;
+
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-img-top {
+  border: none;
+  opacity: 80%;
+  object-fit: scale-down;
+}
+.card > p {
+  display: none;
+}
+.card-img-top:hover {
+  opacity: 100%;
+}
+
+@media screen {
+}
+footer {
+  display: block;
+  margin-top: 5%;
+  background-color: black;
+  height: 10%;
+  margin: none;
+  color: rgb(226, 209, 228);
+  text-align: center;
+}
